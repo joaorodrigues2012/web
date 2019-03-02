@@ -1,0 +1,58 @@
+a.btn {
+  text-decoration: none;
+  outline: none;
+  -webkit-box-shadow: 0 0 0 -2px #d2d2d2, 0 0 0 -1px #26a69a;
+  box-shadow: 0 0 0 -2px #d2d2d2, 0 0 0 -1px #26a69a;
+  border: none;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow .3s; }
+  a.btn:hover, a.btn:focus {
+    box-shadow: 0 0 0 2px #d2d2d2, 0 0 0 4px #219086;
+    -webkit-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    -moz-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    -o-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    -webkit-animation: gelatine 0.5s 1;
+    -moz-animation: gelatine 0.5s 1;
+    -o-animation: gelatine 0.5s 1;
+    animation: gelatine 0.5s 1; }
+
+@keyframes gelatine {
+  from,to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1); }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9); }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05); } }
+/*
+#header {
+  background-color: $azul;
+  p {
+    font_size: 12px;
+    &:hover{color: $vermelho}
+  }
+}
+h1{color: $azul}
+
+
+
+//Mixin
+
+@mixin position($value){
+  display: block;
+  margin-left: $value;
+  margin-right: $value;
+}
+
+#section{
+  @include position(10px);
+}
+*/
+
+/*# sourceMappingURL=style.css.map */

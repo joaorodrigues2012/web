@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Testando Js</title>
+</head>
+<script>
+    function  funcaoJava() {
+        var name = document.getElementById("nome").value;
+        //document.write(name);
+        document.getElementById("na").value = name + " tbt!!"
+    }
+</script>
+<body><!--oninput = "vai executando toda vem que digita algo. Ex: CEP "-->
+<form oninput="funcaoJava()">
+    <h1>Testando JavaScript</h1>
+    <script>
+        document.write("Ola mundo! "+Date());
+    </script><br>
+    <script>
+
+    </script>
+    <br>Nome: <input id="nome" type="text" name="Name" value="" placeholder="Digite seu nome">
+    <input type="color" value="#0000ff">
+    <input id="na" type="text" name="Na" value="" placeholder="" disabled>
+</form>
+</body>
+</html>

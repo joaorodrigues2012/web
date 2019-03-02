@@ -1,0 +1,30 @@
+<CREDITOS>
+CRIADO POR WILLIAN SILVA 10 de Julho de 2011 (3 Dias de projeto)!
+DUVIDAS: email/msn --> williansilva91@gmail.com
+<\CREDITOS>
+
+PARA FAZER O CHAT FUNCIONAR VOCE PRECISA DELETAR OU RENOMEAR ESTE ARQUIVO CHAMADO leiame.txt MAS É RECOMENDAVEL LER PARA ALTERAR ALGUMAS FUNCOES DE ACORDO COM NECESSIDADE.
+
+Como Configurar e Usar?
+
+Importe os arquivos para seu servidor.
+
+Importe o arquivo banco.sql que está na pasta BANCO para seu banco criado no MYSQL.
+Verifique o arquivo "CONFIG.PHP" e altere para os dados do banco que voce definiu /usuario/senha/host e banco.
+
+	COMO COMENTAR? Visite:  http://www.babooforum.com.br/forum/index.php?/topic/167929-tutorial-php-comentrios/
+
+
+
+Se seu servidor suporta envio de email, altere a funçao dentro do arquivo "CLASS.USUARIO.PHP" e comente do jeito que desejar.
+	*Se suportar envio de emmail comente as linhas 27 a 47
+	*Se nao suportar o envio de email comente as linhas 55 a 81
+	
+
+É recomendavel tambem não enviar para o servidor o arquivo da pasta BANCO. 	
+	
+	
+
+
+
+
