@@ -47,7 +47,7 @@
         window.addEventListener("touchstart", touchStart);
         window.addEventListener("touchmove", touchMove);
         window.addEventListener("touchend", touchEnd);
-        
+
         function touchMove(e) {
             var touch = e.touches[0];
             offset = [touch.pageX - globalTouch[0], touch.pageY - globalTouch[1]];
